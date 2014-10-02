@@ -20,7 +20,7 @@ app.factory('QuestionFactory', [function QuestionFactory() {
 					answer: 'Eden ',
 					choices: [
 						'Nineveh ',
-						'Nineveh ',
+						'Egypt',
 						'Mt. Sinai'
 					]
 				}, {		
@@ -141,7 +141,7 @@ app.factory('QuestionFactory', [function QuestionFactory() {
 					choices: [
 						'Blasphemy against the Holy Spirit ',
 						'He hit him with a stone from his sling ',
-						'He hit him with a stone from his sling '
+						'To you I commit my spirit'
 					]
 				}, {		
 					id:15,		
@@ -211,7 +211,7 @@ app.factory('QuestionFactory', [function QuestionFactory() {
 					choices: [
 						'Sixty-six ',
 						'Forty ',
-						'Forty '
+						'5000'
 					]
 				}, {		
 					id:22,		
@@ -331,7 +331,7 @@ app.factory('QuestionFactory', [function QuestionFactory() {
 					choices: [
 						'Flood ',
 						'Crucifixion ',
-						'Crucifixion '
+						'Rib'
 					]
 				}, {		
 					id:34,		
@@ -381,7 +381,7 @@ app.factory('QuestionFactory', [function QuestionFactory() {
 					choices: [
 						'King of the Jews / This is Jesus, King of the Jews ',
 						'She was a virgin ',
-						'She was a virgin '
+						'Murder'
 					]
 				}, {		
 					id:39,		
@@ -410,7 +410,7 @@ app.factory('QuestionFactory', [function QuestionFactory() {
 					answer: 'Paul ',
 					choices: [
 						'(Simon) Peter ',
-						'(Simon) Peter ',
+						'John',
 						'Mary '
 					]
 				}, {		
@@ -581,7 +581,7 @@ app.factory('QuestionFactory', [function QuestionFactory() {
 					choices: [
 						'Death ',
 						'Long hair ',
-						'Death '
+						'Sermon on the mount'
 					]
 				}, {		
 					id:59,		
@@ -781,7 +781,7 @@ app.factory('QuestionFactory', [function QuestionFactory() {
 					choices: [
 						'Samson ',
 						'(Simon) Peter ',
-						'Samson '
+						'Abraham'
 					]
 				}, {		
 					id:79,		
