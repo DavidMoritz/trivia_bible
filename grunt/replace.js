@@ -31,7 +31,7 @@ module.exports = function(grunt) {
 				patterns: [
 					{
 						match: 'javascriptReplaceFiles',
-						replacement: '<script src="_inc/lib.js"></script><script src="_inc/trivia.js"></script>'
+						replacement: '<script src="inc/lib.js"></script><script src="inc/trivia.js"></script>'
 					}
 				]
 			},
@@ -49,7 +49,7 @@ module.exports = function(grunt) {
 				patterns: [
 					{
 						match: 'javascriptReplaceFiles',
-						replacement: '<script src="_inc/trivia.js"></script>'
+						replacement: '<script src="inc/trivia.js"></script>'
 					}
 				]
 			},
