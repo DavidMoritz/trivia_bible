@@ -13,7 +13,7 @@
 		<div class="row">
 			<section class="col-xs-12 question">
 				<table>
-					<thead><tr><th>{{question.title}}</th></tr></thead>
+					<thead><tr><th>{{question.title}}<br>Reference: {{question.reference}}</th></tr></thead>
 					<tbody>
 						<tr ng-repeat="choice in question.choices">
 							<td ng-click="clickChoice($event)" class="thisChoice" data-question="{{question.id}}" data-choice="{{choice}}">

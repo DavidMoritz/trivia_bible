@@ -266,7 +266,7 @@ app.factory('QuestionFactory', [function QuestionFactory() {
 				}, {		
 					id:27,		
 					title: 'Which book of the Bible records many of the hymns David wrote?',		
-					reference: '(Ps 1:1-150:6) ',		
+					reference: 'Bible',		
 					answer: 'Psalms ',
 					choices: [
 						'Revelation ',
@@ -456,7 +456,7 @@ app.factory('QuestionFactory', [function QuestionFactory() {
 				}, {		
 					id:46,		
 					title: 'What is the last book of the New Testament?',		
-					reference: '(Rev 1:1-22:21)',		
+					reference: 'Bible',		
 					answer: 'Revelation ',
 					choices: [
 						'Jude ',
