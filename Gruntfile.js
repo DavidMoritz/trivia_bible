@@ -19,12 +19,12 @@ module.exports = function(grunt) {
 
 	// Define banner for css and js files
 	var banner = "/*!\n" +
-          " * <%= pkg.description %> - v<%= pkg.version %> \n" +
-          " * Build Date: <%= grunt.template.today('yyyy.mm.dd') %> \n" +
-          " * Docs: <%= pkg.homepage %> \n" +
-          " * Coded @ <%= pkg.author %> \n" +
-          " */ \n \n";
-  // Access this config option using <%= banner %>
+ " * <%= pkg.description %> - v<%= pkg.version %> \n" +
+ " * Build Date: <%= grunt.template.today('yyyy.mm.dd') %> \n" +
+ " * Docs: <%= pkg.homepage %> \n" +
+ " * Coded @ <%= pkg.author %> \n" +
+ " */ \n \n";
+ // Access this config option using <%= banner %>
 	grunt.config.set("banner", banner);
 
 	// Load Grunt plugins from the config files in the grunt/ directory

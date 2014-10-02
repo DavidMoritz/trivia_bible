@@ -25,48 +25,44 @@
  */
 module.exports = function(grunt) {
 
-  grunt.config('replace', {
-    dev: {
-      options: {
-        patterns: [
-          {
-            match: 'javascriptReplaceFiles',
-            replacement: '<script src="_inc/lib.js"></script><script src="_inc/trivia.js"></script>'
-          }
-        ]
-      },
-      files: [
-        {
-          expand: true,
-          flatten: true,
-          src: [
-            '<%= distRoot %>/*.html'
-          ],
-          dest: '<%= distRoot %>/'
-        }
-      ]
-    },
-    prod: {
-      options: {
-        patterns: [
-          {
-            match: 'javascriptReplaceFiles',
-            replacement: '<script src="_inc/trivia.js"></script>'
-          }
-        ]
-      },
-      files: [
-        {
-          expand: true,
-          flatten: true,
-          src: [
-            '<%= distRoot %>/*.html'
-          ],
-          dest: '<%= distRoot %>/'
-        }
-      ]
-    }
-  });
+	grunt.config('replace', {
+		dev: {
+			options: {
+				patterns: [
+					{
+						match: 'javascriptReplaceFiles',
+						replacement: '<script src="_inc/lib.js"></script><script src="_inc/trivia.js"></script>'
+					}
+				]
+			},
+			files: [
+				{
+					expand: true,
+					flatten: true,
+					src: ['<%= distRoot %>/*.html'],
+					dest: '<%= distRoot %>/'
+				}
+			]
+		},
+		prod: {
+			options: {
+				patterns: [
+					{
+						match: 'javascriptReplaceFiles',
+						replacement: '<script src="_inc/trivia.js"></script>'
+					}
+				]
+			},
+			files: [
+				{
+					expand: true,
+					flatten: true,
+					src: ['<%= distRoot %>/*.html'],
+					dest: '<%= distRoot %>/'
+				}
+			]
+		}
+	});
 
-  grunt.loadNpmTasks('grunt-replace');
+	grunt.loadNpmTasks('grunt-replace');
 };
