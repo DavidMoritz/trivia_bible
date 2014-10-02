@@ -1,4 +1,4 @@
-trivia_bible
+Kewl Bible Trivia
 ============
 
 POC app for Bible Trivia
