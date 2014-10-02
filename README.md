@@ -11,3 +11,5 @@ Pull master, then run the following command `npm install`
 This will get you up to speed.
 
 Then, run `grunt dev` and a `dist` folder will be created where you can view the index.html
+
+A live version of this app can be viewed at http://davidmoritz.github.io/trivia_bible/
