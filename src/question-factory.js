@@ -749,9 +749,9 @@ app.factory('QuestionFactory', [function QuestionFactory() {
 					reference: '(Matt 13:55) ',		
 					answer: 'Carpenter ',
 					choices: [
-						'Pharisees and Sadducees ',
-						'An angel ',
-						'Shepherds '
+						'Blacksmith ',
+						'Tax Collector ',
+						'Shepherd '
 					]
 				}, {		
 					id:76,		
