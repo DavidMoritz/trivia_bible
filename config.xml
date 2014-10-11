@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widget xmlns = "http://www.w3.org/ns/widgets"
+	xmlns:gap = "http://phonegap.com/ns/1.0"
+	id = "com.moritzcompany"
+	versionCode = "1"
+	version = "1.0">
+	<name>Kewl Bible Trivia</name>
+	<discription>Great Trivia</discription>
+	<author href="davidmoritz.net" email="davidmoritz@gmail.com">
+		David Moritz
+	</author>
+	<gap:platform name="ios" />
+	<gap:platform name="android" />
+	<gap:platform name="winphone" />
+	<preference name="phonegap-version" value="3.3.0" />
+	<preference name="orientation" value="portrait" />
+	<preference name="fullscreen" value="false" />
+	<preference name="webviewbounce" value="false" />
+	<preference name="DisallowOverScroll" value="true" />
+	<preference name="disallowOverScroll" value="true" />
+	<preference name="prerendered-icon" value="false" />
+	<gap:plugin name="com.phonegap.plugins.barcodescanner" />
+	<access origin="*" subdomains="true" />
+</widget>
