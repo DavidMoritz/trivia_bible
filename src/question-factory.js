@@ -119,7 +119,7 @@ app.factory('QuestionFactory', [function QuestionFactory() {
 					answer: 'Abraham',		
 					reference: '(Jam 2:21-22)',
 					choices: [
-						'Isiah',
+						'Isaiah',
 						'Issac',
 						'Moses',
 					]
@@ -136,7 +136,7 @@ app.factory('QuestionFactory', [function QuestionFactory() {
 				}, {		
 					id: 14,		
 					title: 'What was inscribed above Jesus\' cross?',		
-					answer: 'King of the Jews / This is Jesus, King of the Jews',		
+					answer: 'This is Jesus, King of the Jews',		
 					reference: '(Mark 15:26; Matt 27:27)',
 					choices: [
 						'Christ crucified',
@@ -201,7 +201,7 @@ app.factory('QuestionFactory', [function QuestionFactory() {
 					choices: [
 						'Monkey',
 						'Angels',
-						'Mans',
+						'Woman\'s',
 					]
 				}, {		
 					id: 21,		
@@ -267,7 +267,7 @@ app.factory('QuestionFactory', [function QuestionFactory() {
 					id: 27,		
 					title: 'Which book of the Bible records many of the hymns David wrote?',		
 					answer: 'Psalms',		
-					reference: '(Ps 1:1-150:6)',
+					reference: '(Bible)',
 					choices: [
 						'Proverbs',
 						'Song of Solomon',
@@ -359,7 +359,7 @@ app.factory('QuestionFactory', [function QuestionFactory() {
 					answer: 'Jesse',		
 					reference: '(Ruth 4:22)',
 					choices: [
-						'Isiah',
+						'Isaiah',
 						'Abraham',
 						'Daniel',
 					]
@@ -367,11 +367,11 @@ app.factory('QuestionFactory', [function QuestionFactory() {
 					id: 37,		
 					title: 'Which of the gospels appears last in the Bible?',		
 					answer: 'John',		
-					reference: '(Matt 1:1 - John 21:25)',
+					reference: '(Bible)',
 					choices: [
-						'Genesis',
+						'Mark',
 						'Revelation',
-						'Malachi',
+						'Luke',
 					]
 				}, {		
 					id: 38,		
@@ -396,7 +396,7 @@ app.factory('QuestionFactory', [function QuestionFactory() {
 				}, {		
 					id: 40,		
 					title: 'What did Joseph\'s brothers do to get rid of him?',		
-					answer: 'Threw him in a pit and then sold him to strangers',		
+					answer: 'Sold him to foreigners',		
 					reference: '(Gen 37:24-27)',
 					choices: [
 						'Left him alone in the woods',
@@ -409,7 +409,7 @@ app.factory('QuestionFactory', [function QuestionFactory() {
 					answer: 'Paul',		
 					reference: '(Phm 1:1)',
 					choices: [
-						'Jesus\',
+						'Jesus',
 						'Timothy',
 						'Matthew',
 					]
@@ -457,7 +457,7 @@ app.factory('QuestionFactory', [function QuestionFactory() {
 					id: 46,		
 					title: 'What is the last book of the New Testament?',		
 					answer: 'Revelation',		
-					reference: '(Rev 1:1-22:21)',
+					reference: '(Bible)',
 					choices: [
 						'John',
 						'Genesis',
@@ -570,7 +570,7 @@ app.factory('QuestionFactory', [function QuestionFactory() {
 					reference: '(Gen 11:4,9)',
 					choices: [
 						'Tower of Osiris',
-						'Tower of terror',
+						'Tower of Terror',
 						'Tower of God',
 					]
 				}, {		
@@ -620,7 +620,7 @@ app.factory('QuestionFactory', [function QuestionFactory() {
 					reference: '(Matt 19:24)',
 					choices: [
 						'Teaching an old dog new tricks',
-						'Traveling to Jerusalem on a Donkey',
+						'Traveling to Jerusalem on a donkey',
 						'Herding cats',
 					]
 				}, {		
@@ -789,7 +789,7 @@ app.factory('QuestionFactory', [function QuestionFactory() {
 					answer: 'In the temple',		
 					reference: '(Luke 2:42-46)',
 					choices: [
-						'In the Market',
+						'In the market',
 						'In the park',
 						'In a well',
 					]
@@ -987,7 +987,7 @@ app.factory('QuestionFactory', [function QuestionFactory() {
 					id: 99,		
 					title: 'Where did Jonah go after being thrown overboard and reaching dry land?',		
 					answer: 'Nineveh',		
-					reference: '(John 3:3)',
+					reference: '(Jonah 3:3)',
 					choices: [
 						'Home',
 						'Sodom and Gomorrah',
@@ -1067,9 +1067,9 @@ app.factory('QuestionFactory', [function QuestionFactory() {
 					id: 107,		
 					title: 'Which prophet tried to flee from God when asked to preach God\'s message in Nineveh?',		
 					answer: 'Jonah',		
-					reference: '(John 1:2-3)',
+					reference: '(Bible)',
 					choices: [
-						'Isiah',
+						'Isaiah',
 						'Daniel',
 						'Enoch',
 					]
@@ -1109,7 +1109,7 @@ app.factory('QuestionFactory', [function QuestionFactory() {
 					answer: 'Without form and empty',		
 					reference: '(Gen 1:2)',
 					choices: [
-						'Rocky with Oceans',
+						'Rocky with oceans',
 						'Covered in dinosaurs',
 						'Round and soft',
 					]
@@ -1129,7 +1129,7 @@ app.factory('QuestionFactory', [function QuestionFactory() {
 					answer: 'Psalm 23',		
 					reference: '(Psalms)',
 					choices: [
-						'Psalm 19',
+						'Psalm 150',
 						'Psalm 119',
 						'Psalm 1',
 					]
@@ -1139,7 +1139,7 @@ app.factory('QuestionFactory', [function QuestionFactory() {
 					answer: 'Isaac',		
 					reference: '(Gen 17:19)',
 					choices: [
-						'Isiah',
+						'Isaiah',
 						'Joseph',
 						'Jacob',
 					]
@@ -1200,7 +1200,7 @@ app.factory('QuestionFactory', [function QuestionFactory() {
 					reference: '(Heb 7:14)',
 					choices: [
 						'Levi',
-						'Naphtali',
+						'Joseph',
 						'Benjamin',
 					]
 				}, {		
@@ -1256,7 +1256,7 @@ app.factory('QuestionFactory', [function QuestionFactory() {
 				}, {		
 					id: 126,		
 					title: 'How should we treat those who are our enemies, according to Jesus?',		
-					answer: 'Love your enemies, bless them that curse you',		
+					answer: 'Love them',		
 					reference: '(Matt 5:44)',
 					choices: [
 						'Hate them',
@@ -1359,7 +1359,7 @@ app.factory('QuestionFactory', [function QuestionFactory() {
 					answer: 'Elijah',		
 					reference: '(1 Ki 18:44-46)',
 					choices: [
-						'Isiah',
+						'Isaiah',
 						'Elisha',
 						'Noah',
 					]
@@ -1457,7 +1457,7 @@ app.factory('QuestionFactory', [function QuestionFactory() {
 					id: 146,		
 					title: 'What did the sailors of the ship Jonah was on do to increase their chances of survival?',		
 					answer: 'Threw the cargo overboard',		
-					reference: '(John 1:5)',
+					reference: '(Jonah 1:5)',
 					choices: [
 						'They prayed to God',
 						'Tied themselves to the mass',
@@ -1489,7 +1489,7 @@ app.factory('QuestionFactory', [function QuestionFactory() {
 					answer: 'Psalm 119',		
 					reference: '(Psalms)',
 					choices: [
-						'Psalm 19',
+						'Psalm 150',
 						'Psalm 23',
 						'Psalm 1',
 					]
