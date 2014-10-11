@@ -23,8 +23,7 @@ app.controller('triviaController', [
 			if(gameOver) { return; }
 			var $target = $(click.currentTarget);
 			var choice = $target.data('choice');
-			var result = checkAnswer(choice);
-			if(result) {
+			if( checkAnswer(choice) ) {
 				$s.score += 2;
 				$s.questionChose = $s.availableQuestions[++currentQuestion];
 				$s.chooseQuestion(choice);
@@ -33,6 +32,11 @@ app.controller('triviaController', [
 				$target.addClass('wrong');
 				$s.displayText = choice + ' is incorrect';
 			}
+		};
+
+		$s.goBack = function goBack() {
+			$s.questionChose = $s.availableQuestions[--currentQuestion];
+			loadQuestion();
 		};
 
 		$s.availableQuestions = _.shuffle( QuestionFactory.getAllQuestions() );
@@ -50,8 +54,14 @@ app.controller('triviaController', [
 			}
 		};
 
+		$s.startTrivia = function startTrivia() {
+			$s.start = true;
+		};
+
 		$s.question = {};
 		$s.score = 0;
+		$s.start = false;
+
 		$s.displayText = '+2 for correct and -1 for incorrect';
 		var gameOver = false;
 

@@ -29,8 +29,8 @@ module.exports = function(grunt) {
 				{
 					expand: true,
 					cwd: 'src/',
-					src: ['*.png'],
-					dest: '<%= distRoot %>/_inc/'
+					src: ['**/*.png', '**/*.jpg'],
+					dest: '<%= distRoot %>/inc/'
 				}
 			]
 		},
@@ -79,7 +79,7 @@ module.exports = function(grunt) {
 					expand: true,
 					cwd: 'src/',
 					src: ['*.png'],
-					dest: '<%= distRoot %>/_inc/'
+					dest: '<%= distRoot %>/inc/'
 				}
 			]
 		}
